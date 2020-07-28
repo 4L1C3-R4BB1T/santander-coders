@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Livia Guimarães</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="inicio" class="pagina-contato">
+        <a href="hobbies.html">Hobbies</a> |
+        <a href="index.html">Voltar para a página principal</a>
+    </div>
+
+    <div class="container container-formulario">
+        <div class="texto">
+
+            <h1>Formulário de Contato</h1>
+
+            <form action="" method="post">
+                <label for="nome-sobrenome">Nome e Sobrenome</label><br>
+                <input id="nome-sobrenome" type="text" placeholder="Digite seu nome e sobrenome" required />
+
+                <br><br><br>
+
+                <label for="email">Email</label><br>
+                <input id="email" type="email" placeholder="Digite seu email" required />
+
+                <br><br><br>
+
+                <label for="assunto-mensagem">Assunto da Mensagem</label><br>
+                <select name="assunto-mensagem" name="assunto-mensagem">
+                    <option value="sobre">Sobre</option>
+                    <option value="hobbies">Hobbies</option>
+                    <option value="formacao">Formação</option>
+                    <option value="cursos">Cursos</option>
+                    <option value="outras atividades">Outras Atividades</option>
+                </select>
+
+                <br><br><br>
+
+                <label for="genero">Gênero</label><br>
+                <input type="radio" name="genero" value="F" />Feminino<br>
+                <input type="radio" name="genero" value="M" />Masculino<br>
+                <input type="radio" name="genero" value="ND" />Prefiro não responder
+
+                <br><br><br>
+
+                <label for="genero">Passatempos</label><br>
+                <input type="checkbox" name="hobbies" value="Ler" />Ler<br>
+                <input type="checkbox" name="hobbies" value="Música" />Música<br>
+                <input type="checkbox" name="hobbies" value="Jogos" />Jogos<br>
+                <input type="checkbox" name="hobbies" value="Corrida" />Corrida<br>
+                <input type="checkbox" name="hobbies" value="Séries" />Séries
+
+                <br><br><br>
+
+                <label for="comentario">Comentário</label><br>
+                <textarea id="comentario" rows="4" cols="60" name="comentario" required></textarea>
+
+                <br><br><br>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Excluir</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

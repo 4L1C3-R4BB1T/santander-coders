@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+body{
+    font-family: sans-serif;
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+}
+
+h2, h4{
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: normal;
+    text-decoration: underline;
+	font-family: 'Epilogue', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    border-radius: 10px;
+	color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(243, 112, 73, 0.7);
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+ul{
+	font-size: 16px;
+	line-height: 25px;
+}
+
+video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+audio{
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#inicio{
+    text-align: center;
+    font-size: 17px;
+    background-color: rgba(255, 255, 0, 0.95);
+    margin: auto;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#inicio a{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#inicio a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.pagina-principal{
+    width: 80%;
+}
+
+.pagina-hobbies{
+    width: 40%;
+}
+
+.pagina-contato{
+    width: 30%;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.seta{
+    margin-bottom: -6px;
+    margin-left: 10px;
+}
+
+.container{
+    padding: 7px;
+	margin: 30px;
+    position: relative;
+	border-radius: 20px;
+	background-color: rgba(204, 204, 204, 0.94);
+}
+
+.container-formulario{
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.link-voltar{
+	color: black;
+    font-weight: bold;
+    border-radius: 7px;
+    text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	background-color: rgba(243, 112, 73, 0.7);
+}
+
+.link-voltar:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.icones{
+    margin-right: 5px;
+}
+
+.topico{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.destaque{
+    font-size: 22px;
+    border-radius: 5px;
+	color: rgba(17, 17, 17);
+	background-color: rgba(255, 20, 141, 0.6);
+}
+
+strong{
+    font-size: 18px;
+}
+
+em{
+    font-weight: bold;
+}
+
+mark{
+    background-color: lightyellow;
+}
+
+input:focus{
+    background-color: lightyellow;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.imagem-passatempo:hover{
+    border-radius: 25px;
+}
+
+
+
+
+
+
