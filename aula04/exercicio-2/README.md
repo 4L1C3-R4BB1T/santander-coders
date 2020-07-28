@@ -1,10 +1,10 @@
-# Curso Full Stack Java - 17/07/2020
+# Curso Full Stack Java - 22/07/2020
 <ul>
-  <li>Rotas</li>
-  <li>Posicionamento</li>
+  <li>Unidade Relativas</li>
+  <li>Medidaqueries</li>
+  <li>Visualização e Pseudo elementos</li>
+  <li>FlexBox</li>
 </ul>
 <br>
 <p>Preview</p>
-<img src="https://i.ibb.co/x62rFSq/aula2-3.png" alt="aula2-3" border="0">
-
-
+<img src="https://i.ibb.co/4Jqz2yN/aula4-1.png" alt="aula4-1" border="0">
