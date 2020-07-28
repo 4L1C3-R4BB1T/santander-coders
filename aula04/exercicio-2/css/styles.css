@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    /*font-size: 10px;*/
+    /*font-size: 30px;*/
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    background-color: red;
+}
+
+.caixa-a{
+    float: left;
+    width: 20.83%; 
+    background-color: pink;
+}
+
+.caixa-b{
+    float: left;
+    width: 66.66%;
+    margin-right: 2.083%;
+    margin-left: 2.083%;
+    background-color: orange;
+}
+
+.caixa-c{
+    float: right;
+    width: 8.33%;
+    background-color: purple;
+}
+
+.cabecalho{
+    width: 100vw;
+    height: 20vh;
+    background-color: magenta;
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+p{
+    font-size: 0.8125em;
+}
+
+strong{
+    font-size: 0.9375em;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .caixa-a{
+        width: 40%;
+        float: left;
+    }
+
+    .caixa-b{
+        width: 55%;
+        margin: 0px;
+        float: right;
+    }
+
+    .caixa-c{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    body{
+        margin: 0px;
+        font-size: 20.8px;
+    }
+
+    .container{
+        padding: 0px;
+        width: 100%;
+    }
+
+    .caixa-a{
+        width: 100%;
+    }
+
+    .caixa-b{
+        width: 100%;
+    }
+
+    .caixa-c{
+        width: 100%;
+    }
+  }

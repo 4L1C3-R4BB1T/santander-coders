@@ -1,0 +1,62 @@
+.background{
+    margin: auto;
+    height: 610px;
+    width: 1000px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: black solid 4px;
+    background-color: rgb(100, 139, 238);
+}
+
+.container{
+    width: 400px;
+    height: 435px;
+    display: flex;  
+    flex-wrap: wrap;
+    margin: 8.5% auto;
+    border-radius: 2px;
+    flex-direction: column;
+    background-color: white;
+}
+
+.person{
+    width: 360px;
+    height: 90px;
+    display: flex;
+    position: relative;
+    margin: 15px auto 0 auto;
+}
+
+.photo{
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.info{
+    margin-left: 25px; 
+}
+
+.name{
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 35px;
+    color: rgb(86, 86, 86);
+}
+
+.address{
+    color: rgb(168, 168, 168);
+}
+
+.line::after {
+    content: '';
+    height: 1px;
+    width: 360px;
+    display: block;
+    margin-top: 27px;
+    margin-left: -105px;
+    background: rgb(237, 237, 237);
+}
+
+
