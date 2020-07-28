@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+}
+
+.container-menu{
+    width: 960px;
+    height: 45px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 83, 41);
+}
+
+.container-produtos{
+    width: 960px;
+    height: 590px;
+	display: flex;
+    background-color: white;
+	margin: 65px auto 70px auto;
+}
+
+.produtos{
+    width: 300px;
+	height: 170px;
+    position: relative;
+	margin: 20px 10px 20px 10px;
+}
+
+.logo{
+    margin-left: -30px;
+    margin-top: -26px;
+}
+
+.opcoes{
+    margin-top: -67px;
+    margin-left: 90px;
+}
+
+.opcoes a{
+    color: white;
+    font-size: 16px;
+    margin-right: 35px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nome-produto{
+	z-index: 2;
+    color: white;
+    height: 20px;
+    font-size: 16px;
+	margin-top: -94px;
+	font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.botao-ver-mais{
+	z-index: 2;
+	height: 35px;
+    width: 100px;
+    color: white;
+    display: flex;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+    align-items: center;
+	background-color: red;
+	justify-content: center;
+	margin: 20px auto 0px auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+	z-index: 3;
+    margin-left: 220px;
+    margin-top: -166px;
+    position: absolute;
+}

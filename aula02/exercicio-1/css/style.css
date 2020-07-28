@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+body{
+    font-family: sans-serif;
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+}
+
+h2, h4{
+    font-weight: normal;
+    text-decoration: underline;
+	color: rgba(0, 0, 0, 0.74);
+	font-family: 'Epilogue', sans-serif;
+}
+
+h1{
+    font-style: italic;
+	text-align: center;
+    border-radius: 10px;
+	color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(243, 112, 73, 0.7);
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+ul{
+	font-size: 16px;
+	line-height: 25px;
+}
+
+video{
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+audio{
+	display: block;
+	margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+}
+
+#inicio{
+    width: 70%;
+    margin: auto;
+    padding: 3px;
+	font-size: 17px;
+	text-align: center;
+    border-radius: 5px;
+	background-color: rgba(255, 255, 0, 0.95);
+}
+
+#inicio a{
+	color: black;
+	font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.seta{
+    margin-bottom: -6px;
+    margin-left: 10px;
+}
+
+.container{
+    margin: 30px;
+    padding: 7px;
+    position: relative;
+	border-radius: 20px;
+	background-color: rgba(204, 204, 204, 0.94);
+}
+
+.texto{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.link-voltar{
+    font-weight: bold;
+    border-radius: 7px;
+	text-decoration: none;
+    padding: 5px 10px 5px 10px;
+	background-color: rgba(243, 112, 73, 0.7);
+}
+
+.icones{
+    margin-right: 5px;
+}
+
+.topico{
+    margin-top: 50px;
+	text-align: center;
+}
+
+.destaque{
+    font-size: 22px;
+    border-radius: 5px;
+	color: rgba(17, 17, 17);
+	background-color: rgba(255, 20, 141, 0.6);
+}
+
+
+
