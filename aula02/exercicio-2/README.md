@@ -1,8 +1,10 @@
-# Curso Full Stack Java - 15/07/2020
+# Curso Full Stack Java - 17/07/2020
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
+  <li>Rotas</li>
+  <li>Posicionamento</li>
 </ul>
 <br>
 <p>Preview</p>
-<img src="https://i.ibb.co/zFwY3Z7/aula01.png" alt="aula01" border="0">
+<img src="https://i.ibb.co/x62rFSq/aula2-3.png" alt="aula2-3" border="0">
+
+
