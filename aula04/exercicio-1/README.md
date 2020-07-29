@@ -1,6 +1,6 @@
 # Curso Full Stack Java - 22/07/2020
 <ul>
-  <li>Unidade Relativas</li>
+  <li>Unidades Relativas</li>
   <li>Media queries</li>
   <li>Visualização e Pseudo elementos</li>
   <li>FlexBox</li>
