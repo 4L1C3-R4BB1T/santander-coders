@@ -2,5 +2,5 @@
 <ul>
   <li>Git</li>
   <li>GitHub</li>
-  <li>Introdução a JavaScript</li>
+  <li>Introdução ao JavaScript</li>
 </ul>
