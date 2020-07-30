@@ -64,7 +64,7 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
 }
-         
+
 .product{
   margin-bottom: 20px;
 }
@@ -115,18 +115,14 @@ a:hover{
    
   .banner{
     display: block;
-    margin-bottom: -10px;
   }
 
   .banner img{
     width: 100%;
-    margin-bottom: 30px;
+	margin-top: 13px;
+    margin-bottom: 20px;
   }
-
-  .menu-nav ul{
-    overflow: hidden;
-  }
-    
+  
   .menu-nav li{
     float: left;
     width: 15.25%;
@@ -139,7 +135,6 @@ a:hover{
       
   .product{
     width: 48%;
-    float: left;
     margin-right: 4%;
   }
     
