@@ -2,8 +2,8 @@
 <ul>
   <li>Unidades Relativas</li>
   <li>Media queries</li>
-  <li>Visualização e Pseudo elementos</li>
-  <li>FlexBox</li>
+  <li>Pseudo elementos</li>
+  <li>Flexbox</li>
 </ul>
 <br>
 <p>Preview</p>
