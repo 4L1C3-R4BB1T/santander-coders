@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body onload="ocultarCabecalho()">
+
+    <div class="container-fluid p-0">
+        
+        <header>
+            <nav id="top-nav" class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="op1" class="nav-link" href="#">Main <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="op2" class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="op3" class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="op4" class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="container text-center mt-4">
+            <h1 id="cabecalho">Título em h1!</h1>
+
+            <img id="image" src="assets/img/coruja.png">
+        </section>
+
+        <section class="container">
+            <h2 id="titulo">Formulário</h2>
+
+            <form id="formulario" class="p-4" href="" method="">
+                <div class="form-row ">
+                    <div class="col">
+                        <input type="text" class="form-control vermelho" placeholder="Nome">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control vermelho" placeholder="Sobrenome">
+                    </div>
+                </div>
+            
+                <div class="form-group mt-4">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control vermelho" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+            
+                <div class="form-group mt-4">
+                    <label for="exampleFormControlSelect1">Assunto da Mensagem</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Selecione um assunto...</option>
+                        <option>Sobre</option>
+                        <option>Serviços</option>
+                        <option>Preços</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+            
+                <div class="form-group mt-4">
+                    <label for="exampleFormControlTextarea1">Comentário</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            
+                <div class="col-auto my-1 mt-4 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-warning mr-3">Submit</button>
+                    <button type="reset" class="btn btn-warning">Excluir</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <div id="container-icons">
+                <ul id="social">
+                    <li class="d-inline mr-1">
+                        <a id="twitter" href="https://twitter.com/login?lang=pt" target="_blank">
+                            <img class="icon" src="assets/img/twitter.png" alt="ícone do twitter" title="ir para o twitter" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="d-inline mr-1">
+                        <a id="facebook" href="https://www.facebook.com" target="_blank">
+                            <img  class="icon"src="assets/img/facebook.png" alt="ícone do facebook" title="ir para o facebook" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="d-inline mr-1">
+                        <a id="instagram" href="https://www.instagram.com/?hl=pt-br" target="_blank">
+                            <img class="icon" src="assets/img/instagram.png" alt="ícone do instagram" title="ir para o instagram" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="d-inline mr-1">
+                        <a id="foursquare" href="https://pt.foursquare.com/" target="_blank">
+                            <img class="icon" src="assets/img/foursquare.png" alt="ícone do foursquare" title="ir para o foursquare" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="d-inline">
+                        <a id="youtube" href="https://www.google.com/" target="_blank">
+                            <img class="icon" src="assets/img/youtube.png" alt="ícone do youtube" title="ir para o youtube" width="25" height="25">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <p id="copyright">&copy;2020 | Todos os direitos reservados.</p>
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
