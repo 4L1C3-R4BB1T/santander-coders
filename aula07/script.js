@@ -9,7 +9,7 @@ function parOuImpar(n) {
 // console.log(parOuImpar(5)); 
 // console.log(parOuImpar(10)); 
 
-/*-------------------------------------------------------------------------------*/
+
 
 // arrow function que verifica se é número primo
 // caso 'n' possua um divisor qualquer ou seja = 1 já deixa de ser primo
@@ -33,7 +33,7 @@ var ehPrimo = (n) => {
 // console.log(ehPrimo(31)); // é primo
 // console.log(ehPrimo(17)); // é primo
 
-/*-------------------------------------------------------------------------------*/
+
 
 // imprime de 10 até 1 e depois imprime "feliz ano novo"
 function mensagem() {
@@ -50,7 +50,7 @@ function contador(callback) {
 
 // contador(mensagem);
 
-/*-------------------------------------------------------------------------------*/
+
 
 // Promise
 var promise1 = new Promise((resolve, reject) => {
@@ -67,29 +67,19 @@ var promise2 = new Promise((resolve, reject) => {
 //     .then(function () { return promise2 })
 //     .then(function (resultado) { return console.log(resultado) });
 
-/*-------------------------------------------------------------------------------*/
+
 
 // Async/Await
-var funcao1 = new Promise((resolve, reject) => {
-    for (var i = 10; i > 0; i--) {
-        resolve(console.log(i));
-    }
-});
-
-var funcao2 = new Promise((resolve, reject) => {
-    setTimeout(() => { resolve("Feliz ano novo!") }, 4000);
-});
-
 async function funcaoAsyncAwait() {
-    await funcao1;
-    var secondPart = await funcao2;
+    await promise1;
+    var secondPart = await promise2;
 
     console.log(secondPart);
 }
 
 // funcaoAsyncAwait();
 
-/*-------------------------------------------------------------------------------*/
+
 
 // imprimindo notas > 7
 var notas = [5.3, 4.7, 8.5, 7.1, 6.4, 9.2, 9.8, 5.5, 7.4, 7.0];
@@ -100,7 +90,7 @@ function notaMaiorQueSete(notas) {
 
 // notaMaiorQueSete(notas);
 
-/*-------------------------------------------------------------------------------*/
+
 
 // somar todos os valores 
 var produtos = [ 
@@ -118,20 +108,20 @@ function somarPrecos(produtos) {
 
 // console.log(somarPrecos(produtos));
 
-/*-------------------------------------------------------------------------------*/
+
 
 //atribuir disciplina 
 var alunos = [ 
-    { nome: "Amanda", serie: 8, disciplina: "" },
-    { nome: "Pedro", serie: 9, disciplina: "" },
-    { nome: "João", serie: 9, disciplina: "" },
-    { nome: "Vanessa", serie: 9, disciplina: "" },
-    { nome: "Patrícia", serie: 8, disciplina: "" },
-    { nome: "Robson", serie: 8, disciplina: "" },
-    { nome: "Carlos", serie: 9, disciplina: "" },
-    { nome: "Diana", serie: 8, disciplina: "" },
-    { nome: "Leonardo", serie: 9, disciplina: "" },
-    { nome: "Bianca", serie: 9, disciplina: "" }
+    { nome: "Amanda", serie: 8 },
+    { nome: "Pedro", serie: 9 },
+    { nome: "João", serie: 9 },
+    { nome: "Vanessa", serie: 9 },
+    { nome: "Patrícia", serie: 8 },
+    { nome: "Robson", serie: 8 },
+    { nome: "Carlos", serie: 9 },
+    { nome: "Diana", serie: 8 },
+    { nome: "Leonardo", serie: 9 },
+    { nome: "Bianca", serie: 9 }
 ];
 
 function atribuirDisciplina(alunos) {
