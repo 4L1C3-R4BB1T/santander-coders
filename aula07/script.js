@@ -13,9 +13,6 @@ function parOuImpar(n) {
 
 // arrow function que verifica se é número primo
 // caso 'n' possua um divisor qualquer ou seja = 1 já deixa de ser primo
-// function name () {} 
-// () => {}
-
 var ehPrimo = (n) => {
     for (var i = 2; i < n; i++) {
         if (n % i == 0) {
@@ -27,11 +24,7 @@ var ehPrimo = (n) => {
 
 // console.log(ehPrimo(1)); // não é primo
 // console.log(ehPrimo(2)); // é primo
-// console.log(ehPrimo(3)); // é primo
-// console.log(ehPrimo(5)); // é primo
 // console.log(ehPrimo(20)); // não é primo
-// console.log(ehPrimo(31)); // é primo
-// console.log(ehPrimo(17)); // é primo
 
 
 
@@ -125,13 +118,13 @@ var alunos = [
 ];
 
 function atribuirDisciplina(alunos) {
-    for (var i in alunos) {
-        if (alunos[i].serie == 8) {
-            alunos[i].disciplina = "História";
+    alunos.forEach((alunos) => {
+        if (alunos.serie == 8) {
+            alunos.disciplina = "História";
         } else {
-            alunos[i].disciplina = "Física";
+            alunos.disciplina = "Física";
         }
-    }
+    });
 }
 
 // atribuirDisciplina(alunos);
