@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-5 ml-auto mr-auto" style="max-width: 600px;">
+
+        <form id="form" name="form" class="p-4" onsubmit="return validarDados()">
+            <div class="form-group mt-4">
+                <label for="name"><b>Nome</b></label>
+                <input type="text" class="form-control" id="name" name="name" value="" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="email"><b>Email</b></label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="meuemail@gmail.com">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="password"><b>Senha</b></label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="re_password"><b>Confirme sua senha</b></label>
+                <input type="password" class="form-control" id="re_password" name="re_password" placeholder="Digite sua senha novamente">
+            </div>
+
+            <div class="my-1 mt-4 d-flex justify-content-end">
+                <button  class="btn btn-primary mr-3">Enviar</button>
+                <button type="reset" class="btn btn-success">Apagar</button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
