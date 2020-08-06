@@ -42,10 +42,19 @@ table{
     margin-top: 20px;
 }
 
+#vitoria{
+    width: 747px;
+    display: none;
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 10px auto;
+    text-align: center;
+}
+
 .container_game{
-    width: 750px;
+    width: 747px;
     height: 502px;
-    margin: 60px auto;
+    margin: 55px auto 0;
 }
 
 .table_cronometro{

@@ -111,7 +111,7 @@ function pontuacao(acao) {
 
 function situacao_jogo(baloes_inteiros) {
 	if (baloes_inteiros == 0) {
-		alert('Parabéns, você conseguiu estourar todos os balões a tempo!');
+		document.getElementById('vitoria').style.display = 'block';
 		parar_jogo();
 	}
 }
