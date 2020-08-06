@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- INÍCIO CONTAINER FORMULÁRIO -->
+    <div id="conteudo" class="container ml-auto mr-auto mb-4" style="max-width: 600px;">
+
+        <div class="mt-4 d-flex justify-content-end">
+            <button id="imprimir" class="btn btn-warning mr-3">Ordem</button>
+            <button id="btn-ocultar" class="btn btn-danger">Ocultar</button>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <form id="form" name="form">
+            <div class="form-group mt-4">
+                <label for="name"><b>Nome</b></label>
+                <input id="name" class="form-control" name="name" value="" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="email"><b>Email</b></label>
+                <input id="email" class="form-control" name="email" placeholder="meuemail@gmail.com">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="password"><b>Senha</b></label>
+                <input id="password" class="form-control" type="password" name="password"
+                    placeholder="Digite sua senha">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="re_password"><b>Confirme sua senha</b></label>
+                <input id="re_password" class="form-control" type="password" name="re_password"
+                    placeholder="Digite sua senha novamente">
+            </div>
+
+            <p class="mt-4"><b>Deseja receber notícias sobre o site?</b></p>
+            <div id="noticias" class="row">
+                <div class="form-check ml-3">
+                    <input id="op-yes" class="form-check-input" type="radio" name="option" value="sim">
+                    <label class="form-check-label" for="op-yes">Sim</label>
+                </div>
+
+                <div class="form-check ml-3">
+                    <input id="op-no" class="form-check-input" type="radio" name="option" value="não">
+                    <label class="form-check-label" for="op-no">Não</label>
+                </div>
+            </div>
+
+            <p class="mt-4"><b>Gênero</b></p>
+            <div id="genero" class="row">
+                <div class="form-check ml-3">
+                    <input id="masculino" class="form-check-input" type="radio" name="genero" value="masculino">
+                    <label class="form-check-label" for="masculino">Masculino</label>
+                </div>
+
+                <div class="form-check ml-3">
+                    <input id="feminino" class="form-check-input" type="radio" name="genero" value="feminino">
+                    <label class="form-check-label" for="feminino">Feminino</label>
+                </div>
+
+                <div class="form-check ml-3">
+                    <input id="outro" class="form-check-input" type="radio" name="genero" value="outro">
+                    <label class="form-check-label" for="outro">Outro</label>
+                </div>
+            </div>
+
+            <!-- BOTÕES FORMULÁRIO -->
+            <div class="my-1 mt-4 d-flex justify-content-end">
+                <button id="btn-enviar" class="btn btn-primary mr-3">Enviar</button>
+                <button class="btn btn-success" type="reset">Apagar</button>
+            </div>
+        </form>
+        <!-- FIM FORMULÁRIO -->
+
+    </div>
+    <!-- FIM CONTAINER FORMULÁRIO -->
+
+    <!-- INÍCIO CONTAINER DADOS -->
+    <div id="container-dados" class="container ml-auto mr-auto mt-5" style="display: none">
+        <ul>
+            <li>
+                Nome: <span id="val-nome"></span>
+            </li>
+            <li>
+                Email: <span id="val-email"></span>
+            </li>
+            <li>
+                Senha: <span id="val-senha"></span>
+            </li>
+            <li>
+                Receber notícias: <span id="val-noticias"></span>
+            </li>
+            <li>
+                Gênero: <span id="val-genero"></span>
+            </li>
+        </ul>
+
+        <div class="my-1 mt-4 d-flex justify-content-end">
+            <button id="btn-editar" class="btn btn-info ml-5">Editar</button>
+        </div>
+    </div>
+    <!-- FIM CONTAINER DADOS -->
+
+    <!-- INÍCIO CONTAINER EDIÇÃO -->
+    <div id="container-edicao" class="container ml-auto mr-auto" style="max-width: 600px; display: none;">
+
+        <!-- FORMULÁRIO -->
+        <form>
+            <div class="form-group mt-4">
+                <label for="name"><b>Nome</b></label>
+                <input id="ed-nome" class="form-control" value="" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="email"><b>Email</b></label>
+                <input id="ed-email" class="form-control" placeholder="meuemail@gmail.com">
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="password"><b>Senha</b></label>
+                <input id="ed-senha" class="form-control" type="text" placeholder="Digite sua senha">
+            </div>
+
+            <!-- BOTÃO FORMULÁRIO -->
+            <div class="my-1 mt-4 d-flex justify-content-end">
+                <button id="btn-confirmar" class="btn btn-primary" type="submit">Confirmar</button>
+            </div>
+        </form>
+        <!-- FORMULÁRIO -->
+
+    </div>
+    <!-- FIM CONTAINER EDIÇÃO -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/ordemForm.js"></script>
+
+</body>
+
+</html>
