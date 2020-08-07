@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="assets/img/favicon.ico" />
+	<title>Jogo da velha</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+
+	<div id="pagina_inicial" align="center">
+		<table>
+			<tr>
+				<td colspan="3">JOGO DA VELHA</td>
+			</tr>
+
+			<tr>
+				<td>
+					<img src="assets/img/jogador_1.png">
+					<br>
+					<input id="nick_1" type="text" maxlength="10" placeholder="Apelido Jogador 1">
+				</td>
+
+				<td>
+					<img id="btn_iniciar_jogo" src="assets/img/iniciar.png">
+				</td>
+
+				<td>
+					<img src="assets/img/jogador_2.png">
+					<br>
+					<input id="nick_2" type="text" maxlength="10" placeholder="Apelido Jogador 2">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="palco_jogo">
+		<div class="col">
+			<img src="assets/img/jogador_1.png">
+			<br>
+			<span id="nome_1"></span>
+		</div>
+
+		<div class="col">
+			<table>
+				<tr>
+					<td class="board-1">
+						<div id="a-1" class="jogada"></div>
+					</td>
+					<td class="board-1">
+						<div id="a-2" class="jogada"></div>
+					</td>
+					<td class="board-2">
+						<div id="a-3" class="jogada"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="board-1">
+						<div id="b-1" class="jogada"></div>
+					</td>
+					<td class="board-1">
+						<div id="b-2" class="jogada"></div>
+					</td>
+					<td class="board-2">
+						<div id="b-3" class="jogada"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="board-3">
+						<div id="c-1" class="jogada"></div>
+					</td>
+					<td class="board-3">
+						<div id="c-2" class="jogada"></div>
+					</td>
+					<td>
+						<div id="c-3" class="jogada"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="col">
+			<img src="assets/img/jogador_2.png">
+			<br>
+			<span id="nome_2"></span>
+		</div>
+	</div>
+
+	<div id="container_ganhador">
+		<span id="ganhador"></span>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/jogo.js"></script>
+
+</body>
+
+</html>

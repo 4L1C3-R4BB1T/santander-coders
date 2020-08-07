@@ -1,0 +1,65 @@
+body{
+    font-family: arial;
+}
+
+#pagina_inicial{
+    font-size: 25px;
+    margin-top: 190px;
+}
+
+#pagina_inicial table{
+    width: 600px;
+}
+
+#pagina_inicial td{
+    margin-left: auto;
+    text-align: center;
+}
+
+#palco_jogo{
+    display: none; 
+    margin-top: 120px; 
+    text-align: center;
+}
+
+#nick_1, #nick_2{
+    border: 0px;
+    text-align: center;
+}
+
+#container_ganhador{
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.board-1{
+    border-right: solid 2px red;
+    border-bottom: solid 2px red; 
+}
+
+.board-2{
+    border-bottom: solid 2px red; 
+}
+
+.board-3{
+    border-right: solid 2px red;
+}
+
+.jogada{
+    width: 100px; 
+    height: 100px;
+}
+
+.col{
+    display: inline-block;
+}
+
+.col table{
+    border-collapse: collapse;
+}
+
+
+
