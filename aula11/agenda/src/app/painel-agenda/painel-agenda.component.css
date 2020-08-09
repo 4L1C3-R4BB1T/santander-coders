@@ -1,0 +1,38 @@
+.deletar-atualizar {
+  width: 120px;
+  text-align: center;
+}
+  
+.espaco {
+  margin: 0 10px 0 0;
+}
+
+.container {
+  max-width: 800px;
+  min-width: 585px;
+  margin: 2% auto;
+}
+
+.input-container {
+  display: flex;
+  margin: 15px;
+}
+
+.phone {
+  margin-left: 20px;
+}
+
+.button {
+  margin-left: 20px;
+  margin-top: 21px;
+}
+
+.container-header {
+  display: flex;
+  font-family: arial;
+  justify-content: center;
+}
+
+.container-header img {
+  height: 70px;
+}

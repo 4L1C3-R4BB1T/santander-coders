@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="container-header">
+        <img src="../../assets/img/schedule.png" /> 
+        <h1>Agenda</h1>
+    </div>
+    <p-panel header="Agenda">
+        <div class="input-container p-grid">
+            <div class="p-col-10">
+                <div class="p-col-2">Nome</div>
+                <input pInputText type="text" [(ngModel)]="ag.nome">
+            </div>
+            <div class="p-col-10 phone">
+                <div class="p-col-2">Telefone</div>
+                <input pInputText type="text" [(ngModel)]="ag.telefone">
+            </div>
+            <div class="p-col-10 p-offset-2 mt-2">
+                <button class="button" pButton type="submit" [label]="operacao ?
+            'Adicionar' : 'Atualizar'" (click)="inserirOuAtualizar()">
+                </button>
+            </div>
+        </div>
+    </p-panel>
+    <p-table [value]="agenda" [paginator]="true" [rows]="3">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th class="deletar-atualizar"></th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-ag>
+            <tr>
+                <td>{{ag.nome}}</td>
+                <td>{{ag.telefone}}</td>
+                <td class="deletar-atualizar">
+                    <p-button (click)="editar(ag)" class="espaco" icon="pi pi-pencil"></p-button>
+                    <p-button (click)="excluir(ag.id)" icon="pi pi-trash"></p-button>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
