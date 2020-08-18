@@ -1,7 +1,7 @@
 package principal;
 
 import java.util.Scanner;
-//import geometria.Triangulo;
+// import geometria.Triangulo;
 import produtos.Produto;
 
 public class Main {
@@ -14,12 +14,12 @@ public class Main {
 		Triangulo x = new Triangulo();
 		Triangulo y = new Triangulo();
 		
-		System.out.println("Digite as medidas do triângulo X:");
+		System.out.println("Digite as medidas do triÃ¢ngulo X:");
 		x.ladoA = sc.nextDouble();
 		x.ladoB = sc.nextDouble();
 		x.ladoC = sc.nextDouble();
 		
-		System.out.println("Digite as medidas do triângulo Y:");
+		System.out.println("Digite as medidas do triÃ¢ngulo Y:");
 		y.ladoA = sc.nextDouble();
 		y.ladoB = sc.nextDouble();
 		y.ladoC = sc.nextDouble();
@@ -27,13 +27,13 @@ public class Main {
 		double areaX = x.area();
 		double areaY = y.area();
 		
-		System.out.println("O valor da área de X é: " + areaX);
-		System.out.println("O valor da área de Y é: " + areaY);
+		System.out.println("O valor da Ã¡rea de X Ã©: " + areaX);
+		System.out.println("O valor da Ã¡rea de Y Ã©: " + areaY);
 
 		if(areaX > areaY) {
-			System.out.println("A área de X é maior!");
+			System.out.println("A Ã¡rea de X Ã© maior!");
 		}else {
-			System.out.println("A área de Y é maior!");
+			System.out.println("A Ã¡rea de Y Ã© maior!");
 		}
 		*/
 		
@@ -44,7 +44,7 @@ public class Main {
 		System.out.print("Nome: ");
 		p.nome = sc.nextLine();
 		
-		System.out.print("Preço: ");
+		System.out.print("PreÃ§o: ");
 		p.preco = sc.nextDouble();
 		
 		System.out.print("Quantidade em estoque: ");
@@ -53,13 +53,13 @@ public class Main {
 		System.out.println("Dados do produto: " + p.nome + ", R$ " + p.preco 
 				+ ", " + p.quantidade + " unidades, Total: R$ " + p.valorTotalEmEstoque());
 	
-		//Adicionar
-		System.out.print("\nDigite o número de produtos a serem adicionados ao estoque: ");
+		// Adicionar
+		System.out.print("\nDigite o nÃºmero de produtos a serem adicionados ao estoque: ");
 		int n = sc.nextInt();
 		p.adicionarProdutos(n);
 		
-		//Remover
-		System.out.print("\nDigite o número de produtos a serem removidos do estoque: ");
+		// Remover
+		System.out.print("\nDigite o nÃºmero de produtos a serem removidos do estoque: ");
 		n = sc.nextInt();
 		p.removerProdutos(n);
 		
