@@ -19,7 +19,7 @@ public class Main {
 		System.out.print("Nome: ");
 		e.nome = sc.nextLine();
 		
-		System.out.print("Sal·rio bruto: ");
+		System.out.print("Sal√°rio bruto: ");
 		e.salarioBruto = sc.nextDouble();
 		
 		System.out.print("Impostos: ");
@@ -29,13 +29,14 @@ public class Main {
 		
 		System.out.print("\nQual a porcentagem de aumento?");
 		double porcentagem = sc.nextDouble();
+		
 		e.aumentarSalario(porcentagem);
 		*/
 		
 		/*
 		Retangulo r = new Retangulo();
 		
-		System.out.println("Digite a largura e altura do ret‚ngulo:");
+		System.out.println("Digite a largura e altura do ret√¢ngulo:");
 		r.largura = sc.nextDouble();
 		r.altura = sc.nextDouble();
 		
