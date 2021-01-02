@@ -1,12 +1,10 @@
-# Curso Full Stack Java - 22/07/2020
-<ul>
-  <li>Unidades Relativas</li>
-  <li>Media queries</li>
-  <li>Pseudo elementos</li>
-  <li>Flexbox</li>
-</ul>
-<br>
-<p>Preview</p>
-<img src="https://i.ibb.co/DKR1PJw/img1.png" alt="img1" border="0">
-<img src="https://i.ibb.co/QNzKKzk/img2.png" alt="img2" border="0">
+## Curso Full Stack Java - 22/07/2020
+* Unidades Relativas
+* Media queries
+* Pseudo elementos
+* Flexbox
+
+### Preview
+![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/master/_assets/aula04-ex1-1.png)
+![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/master/_assets/aula04-ex1-2.png)
 
