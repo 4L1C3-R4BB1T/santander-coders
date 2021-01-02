@@ -1,10 +1,6 @@
-# Curso Full Stack Java - 17/07/2020
-<ul>
-  <li>Rotas</li>
-  <li>Posicionamento</li>
-</ul>
-<br>
-<p>Preview</p>
-<img src="https://i.ibb.co/x62rFSq/aula2-3.png" alt="aula2-3" border="0">
+## Curso Full Stack Java - 17/07/2020
+* Rotas
+* Posicionamento
 
-
+### Preview
+![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/master/_assets/aula02-ex2.png)

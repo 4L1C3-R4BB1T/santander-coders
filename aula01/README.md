@@ -2,5 +2,5 @@
 * HTML
 * CSS
 
-### Preview</p>
+### Preview
 ![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/master/_assets/aula01.png)
