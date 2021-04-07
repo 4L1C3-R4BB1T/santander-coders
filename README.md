@@ -2,7 +2,6 @@
 
 Bolsa do curso ofertada pelo programa [Santander Coders] by [Digital House] - Web Full Stack Java.
 
-
 ### Conteúdo
 
 * HTML (Linguagem de Marcação) e CSS (Folhas de Estilo)

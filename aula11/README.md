@@ -3,7 +3,7 @@
 * Angular
 
 ### Preview
-![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/master/_assets/aula11.png)
+![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/main/_assets/aula11.png)
 
 ## Comandos
 ```bash

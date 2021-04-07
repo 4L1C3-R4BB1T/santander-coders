@@ -4,4 +4,4 @@
 * Box Model
 
 ### Preview
-![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/master/_assets/aula03-ex1.png)
+![Imagem](https://github.com/4L1C3-R4BB1T/santander-coders/raw/main/_assets/aula03-ex1.png)
